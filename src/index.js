@@ -4,9 +4,8 @@ import viewEngine from './config/viewEngine';
 import webRoutes from './routes/web';
 import dotenv   from 'dotenv';
 
-let app = express();
-
-dotenv.config(); // load env variables
+import dotenv from 'dotenv';
+dotenv.config();
 
 // config view engine
 viewEngine(app);
