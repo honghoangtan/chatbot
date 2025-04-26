@@ -2,7 +2,6 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import viewEngine from './config/viewEngine';  
 import webRoutes from './routes/web';
-import dotenv   from 'dotenv';
 
 import dotenv from 'dotenv';
 dotenv.config();
